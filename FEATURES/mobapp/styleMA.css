@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+#home nav ul li ul{
+    position: fixed;
+  
+ 
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 1px;
+    background-color: #437874;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.logo{
+    color: #FFF;
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 60px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav ul li a{
+    color: #FFF;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    color: #407F7F;
+     background-color: #fff;
+    transition: .5s;
+}
+
+.cta{
+    background-color: #003333;
+    color: #FFF;
+}
+
+.cta:hover{
+    background-color: #fff;
+    color: #FFF;
+}
+img{
+    width: 100%;
+    
+}
+nav ul li ul{
+    display: block;
+    position: absolute;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #ffff;
+    text-align:right;
+    margin-right: 2px;
+
+}
+nav ul li ul li a{
+    text-align:center;
+    color: red;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Rampart One', cursive;
+}
+p{
+    text-align: justify-all;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.contact{
+        text-align: center;
+       background-color: #437874;
+       padding: 20px;
+}
+.contact h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 27px;
+}
+
+.contact p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
