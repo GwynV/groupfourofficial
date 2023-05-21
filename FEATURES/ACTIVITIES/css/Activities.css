@@ -33,7 +33,7 @@ body {
 }
 .owl-nav .owl-prev {
   position: absolute;
-  top: calc(30% - 15px);
+  top: calc(50% - 25px);
   left: 0;
   opacity: 1;
   font-size: 30px !important;
