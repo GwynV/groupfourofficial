@@ -618,6 +618,10 @@ section {
   font-size: 30px;
 }
 
+.fear .content h3 a {
+ color: #37517e;
+}
+
 .feat .content ul {
   list-style: none;
   padding: 0;
@@ -672,6 +676,7 @@ section {
 }
 .f-name1 {
   padding-left: 10px;
+  position: auto;
 }
 
 /*--------------------------------------------------------------
