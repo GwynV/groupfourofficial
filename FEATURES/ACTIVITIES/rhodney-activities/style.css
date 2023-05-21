@@ -14,7 +14,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: lightblue;
+  background: #37517e;
   min-height: 100vh;
 }
 .wrapper{
