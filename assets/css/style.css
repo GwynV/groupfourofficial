@@ -960,7 +960,7 @@ color: #37517e;
 .dark h1 a {
   color: #fff;
 }
-.dark article h1 ul li a {
+.dark article .postcard__text h1 ul li a {
   color: #fff;
 }
 .light {
