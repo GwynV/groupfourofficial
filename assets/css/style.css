@@ -957,8 +957,8 @@ color: #37517e;
   background: #f3f5fa;
   color: #37517e;
 }
-a{
-  color: #fff;
+.dark .article h1 a{
+  color: #000;
 }
 .light {
   background: #f3f5f7;
