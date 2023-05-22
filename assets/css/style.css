@@ -1835,7 +1835,12 @@ a:hover {
 
 #footer .credits a {
   transition: 0.3s;
-  color: #fff
+  color: #47b2e4;
+}
+
+#footer .credits a:hover {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
