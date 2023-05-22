@@ -960,11 +960,13 @@ color: #37517e;
 .dark h1 a {
   color: #fff;
 }
+.dark h1 li a {
+  color: #fff;
+}
 .light {
   background: #f3f5f7;
 }
 
-a,
 a:hover {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
