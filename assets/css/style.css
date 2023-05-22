@@ -618,10 +618,6 @@ section {
   font-size: 30px;
 }
 
-.fear .content h3 a {
- color: #37517e;
-}
-
 .feat .content ul {
   list-style: none;
   padding: 0;
@@ -667,7 +663,7 @@ section {
 
 .feat .content .btn-learn-more:hover {
   background: #47b2e4;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
