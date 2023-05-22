@@ -960,7 +960,7 @@ color: #37517e;
 .dark h1 a {
   color: #fff;
 }
-.dark h1 ul li a {
+.dark .article h1 ul li a {
   color: #fff;
 }
 .light {
@@ -1835,6 +1835,7 @@ a:hover {
 
 #footer .credits a {
   transition: 0.3s;
+  color: #fff
 }
 
 @media (max-width: 768px) {
