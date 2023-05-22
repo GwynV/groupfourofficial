@@ -777,6 +777,9 @@ section {
   transform: translateY(-10px);
 }
 
+.overview .section-title h2 p a strong{
+color: #37517e; 
+}
 .overview .icon-box:hover h3 a {
   color: #47b2e4;
 }
