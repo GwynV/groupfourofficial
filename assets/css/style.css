@@ -1769,7 +1769,7 @@ a:hover {
 
 #footer .credits a:hover {
   text-decoration: none;
-  transition: 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
