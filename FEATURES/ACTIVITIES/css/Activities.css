@@ -4,7 +4,7 @@ html {
 }
 body {
   font-family: 'Jost', sans-serif;
-  background: #47b2e4;
+  background: #37517e;
 }
 .slider {
   margin-bottom: 30px;
@@ -15,7 +15,7 @@ body {
   opacity: 1;
   background: #ff9966; /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);
-  background: linear-gradient(to bottom, #459bc8, #37517e);
+  background: linear-gradient(to bottom, #459bc8, #47b2e4);
   color: #fff;
 }
 .slider-card {
