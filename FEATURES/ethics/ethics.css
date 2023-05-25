@@ -7,6 +7,14 @@
 body{
 	font-family: Arial, sans-serif;
 }
+nav{
+    display: flex;
+	padding: 8px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #395A90;
+    float: none;
+}
 .button{
     font-size: 60px;
     margin-left: 2pc;
@@ -15,57 +23,57 @@ body{
     
     /*gradient*/
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
-    
-    /*background size and repeat properties */
-    background-size: 100%;
-    background-repeat: repeat;
-  
+
     /*show the gradient as a text color*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
-nav{
+header {
     display: flex;
-	padding: 8px;
+    flex-direction: row;
     align-items: center;
-    background-color: #395A90;
-    float: none;
+    padding: 0px 1px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+}
+h1 {
+    display: block;
+    padding-left: 220px;
+    padding-right: 300px;
 }
 .subject_style{
-    color: white;
-    float: right;
+    display: flex;
     font-weight: bold;
-    font-size: 30px;  
-    letter-spacing: 3px;
-    padding-left: 30px;
-    padding-right: 610px;
-}
-.subject_style h1 a{
     text-decoration: none;
-}
-.ulist_style{
-    width: 100%;
-    list-style-type: none;  
-    align-items: center;
-    float: left;
-
-}
-.ulist_style a{
     color: white;
-    float: left;
-    padding: 10px 40px;
+    font-size: 50px;  
+    letter-spacing: 3px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+}
+nav ul li a{
+    color: #FFF;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
     text-decoration: none;
     font-size: 15px;
     letter-spacing: 2px;
-    hover-text: black;
-    margin:0px 5px 0px 5px;
+    margin:0px 30px 0px 5px;
+    position: relative;
 }
-nav a:hover{
-    background-color: #F7F4DE;
+
+nav ul li a:hover{
     color: black;
-    transition: 0.9s;
+     background-color: #F7F4DE;
 }
 .head{
     background-color: #233859;
