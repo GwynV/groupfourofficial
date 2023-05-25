@@ -10,9 +10,13 @@
   background: #007bff;
 }
 .button{
-    font-size: 60px;
+    font-size: 24px;
     font-family: "Open Sans", sans-serif;
-    margin-left: 3pc;
+    margin-left: 1.8pc;
+    margin-bottom: 50pc;
+    padding-top: 0.5pc;
+    margin-top: 4pc;
+
     /* Fallback: Set a background color. */
     background-color: red;
     
@@ -31,14 +35,16 @@
 }
 body{
   padding: 10px;
+  margin-right: 5.3pc;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #37517e;
   min-height: 100vh;
+  max-width: 100%;
 }
 .wrapper{
-  max-width: 1100px;
+  max-width: 100%;
 }
 .gallery{
   display: flex;
