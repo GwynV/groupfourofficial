@@ -3,7 +3,7 @@ html {
   scroll-behavior: smooth;
 }
 .button{
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Open Sans", sans-serif;
     margin-left: 3pc;
     /* Fallback: Set a background color. */
@@ -22,6 +22,7 @@ html {
 body {
   font-family: 'Jost', sans-serif;
   background: #37517e;
+  padding-top: 20px;
 }
 .slider {
   margin-bottom: 30px;
