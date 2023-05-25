@@ -32,8 +32,8 @@ header{
 }
 .button{
     font-size: 60px;
-    font-family: "Open Sans", sans-serif;
-    margin-left: 5pc;
+    margin-left: 2pc;
+    
     /* Fallback: Set a background color. */
     background-color: red;
     
@@ -55,7 +55,7 @@ header{
     color: #FFF;
     font-weight: 900;
     font-size: 50px;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 nav ul{
