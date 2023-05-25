@@ -10,7 +10,7 @@ body{
 .button{
     font-size: 60px;
     font-family: "Open Sans", sans-serif;
-    margin-left: 5pc;
+    margin-left: 3pc;
     /* Fallback: Set a background color. */
     background-color: red;
     
